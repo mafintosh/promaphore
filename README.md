@@ -1,15 +1,15 @@
-# promise-semaphore
+# promaphore
 
-An async semaphore implementation
+Promise Semaphore
 
 ```
-npm install promise-semaphore
+npm install promaphore
 ```
 
 ## Usage
 
 ``` js
-const Semaphore = require('promise-semaphore')
+const Semaphore = require('promaphore')
 
 const s = new Semaphore(2) // 2 is the max operation count
 
