@@ -1,6 +1,6 @@
 {
   "name": "promaphore",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Promise Semaphore",
   "main": "index.js",
   "dependencies": {},
