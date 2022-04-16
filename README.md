@@ -13,7 +13,7 @@ const Semaphore = require('promaphore')
 
 const s = new Semaphore(2) // 2 is the max operation count
 
-if (await s.wait()) { // wait for the to enter the block (only 2 can be in here at once)
+if (await s.wait()) { // wait for the program to enter the block (only 2 can be in here at once)
   s.signal() // signal that you are exiting the block
 }
 ```
